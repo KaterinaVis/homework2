@@ -14,5 +14,5 @@ if(number > 99 && number < 1000)
 }
 else
 {
-    Console.WriteLine("Вы ввели не трехзначное число");
+    Console.WriteLine("Ошибка! Вы ввели не трехзначное число");
 }
