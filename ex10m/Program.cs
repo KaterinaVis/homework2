@@ -17,7 +17,7 @@ else
 
 
 
-int ReadInt(string message)  // метод конвертации из ввода в число
+int ReadInt(string message)  
 {
 Console.Write(message);
 return Convert.ToInt32(Console.ReadLine());
