@@ -8,8 +8,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if(number > 99 && number < 1000)
 {
-    int firstDigit = number / 10;
-    int secondDigit = firstDigit % 10;
+    int secondDigit = (number / 10) % 10;
     Console.WriteLine(secondDigit);
 }
 else
