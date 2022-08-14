@@ -6,23 +6,13 @@
 
 32679 -> 6 */
 
-int number = ReadInt("Введите число: ");
-
-if(number < 100)
+Console.Write("Введите число: ");
+string numbertext = Convert.ToString(Console.ReadLine());
+if (numbertext.Length > 2)
 {
-    Console.WriteLine("Третьей цифры нет");
+    Console.Write("Третья цифра числа " + numbertext[2]);
 }
-else if (number > 99)
+else
 {
-    int secondDigit = (number / 10) % 10;
-    Console.WriteLine(secondDigit);
+    Console.Write("В этом числе третьей цифры нет");
 }
-
-
-
-int ReadInt(string message)  
-{
-Console.Write(message);
-return Convert.ToInt32(Console.ReadLine());
-}
-
