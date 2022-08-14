@@ -8,9 +8,11 @@
 
 Console.Write("Введите число: ");
 string numbertext = Convert.ToString(Console.ReadLine());
+
+
 if (numbertext.Length > 2)
 {
-    Console.Write("Третья цифра числа " + numbertext[2]);
+ Console.Write("Третья цифра числа " + numbertext[2]);
 }
 else
 {
